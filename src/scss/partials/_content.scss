@@ -1,0 +1,34 @@
+main {
+  .container {
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 163px;
+    line-height: 30px;
+    padding-bottom: 40px;
+
+  h2 {
+    color: #3C4043;
+    font-weight: 500;
+    margin: 30px 0;
+  }
+  p {
+    font-size: 15px;
+    color: #434343;
+    margin: 15px 0px;
+    a {
+      text-decoration: none;
+      color: $primary_blue;
+    }
+  }
+  ol {
+    color: #434343;
+    li {
+      padding-top: 10px;
+    }
+  }
+  h3 {
+    color: #3C4043;
+    font-weight: 500;
+  }
+  }
+}

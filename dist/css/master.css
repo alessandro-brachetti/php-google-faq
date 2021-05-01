@@ -1,1 +1,135 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Lato", sans-serif;
+}
+*:not(ol) {
+  padding: 0;
+}
 
+.d-flex {
+  display: flex;
+}
+
+.no-style {
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  background-color: #FFF;
+  border-bottom: 1px solid #CBCBCB;
+  position: fixed;
+  z-index: 10;
+}
+header .header-top {
+  justify-content: space-between;
+  padding-top: 10px;
+}
+header .header-top .header-top-left {
+  align-items: center;
+  padding-left: 10px;
+}
+header .header-top .header-top-left img {
+  width: 100px;
+  height: 50px;
+}
+header .header-top .header-top-left span {
+  font-size: 22px;
+  color: #5F6368;
+}
+header .header-top .header-top-right {
+  align-items: center;
+  padding-right: 20px;
+}
+header .header-top .header-top-right .menu-icon {
+  padding-right: 20px;
+}
+header .header-top .header-top-right .menu-icon i {
+  font-size: 18px;
+  color: #5F6368;
+  cursor: pointer;
+}
+header .header-top .header-top-right .user-icon i {
+  font-size: 32px;
+  color: green;
+  cursor: pointer;
+}
+header .header-bottom {
+  padding-top: 5px;
+  padding-left: 20px;
+}
+header .header-bottom ul li {
+  font-size: 16px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+header .header-bottom ul li:not(:last-child) {
+  color: #5f6368;
+}
+header .header-bottom ul li:last-child {
+  padding-bottom: 15px;
+  color: #3367D6;
+  border-bottom: 3px solid #3367D6;
+}
+
+main .container {
+  width: 55%;
+  margin: 0 auto;
+  padding-top: 163px;
+  line-height: 30px;
+  padding-bottom: 40px;
+}
+main .container h2 {
+  color: #3C4043;
+  font-weight: 500;
+  margin: 30px 0;
+}
+main .container p {
+  font-size: 15px;
+  color: #434343;
+  margin: 15px 0px;
+}
+main .container p a {
+  text-decoration: none;
+  color: #3367D6;
+}
+main .container ol {
+  color: #434343;
+}
+main .container ol li {
+  padding-top: 10px;
+}
+main .container h3 {
+  color: #3C4043;
+  font-weight: 500;
+}
+
+footer .footer-wrapper {
+  justify-content: space-between;
+  width: 55%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+footer .footer-wrapper .footer-left ul {
+  font-size: 11px;
+  font-weight: 300;
+  color: rgba(61, 61, 61, 0.8);
+}
+footer .footer-wrapper .footer-left ul li:not(:first-child):before {
+  content: "·";
+  padding: 0 5px;
+}
+footer .footer-wrapper .footer-right {
+  align-items: center;
+}
+footer .footer-wrapper .footer-right i {
+  color: #5BC6FD;
+  padding-right: 10px;
+}
+footer .footer-wrapper .footer-right select {
+  padding-right: 100px;
+}

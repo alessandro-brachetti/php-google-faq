@@ -1,8 +1,7 @@
-// * {
-//   margin: 0;
-//   padding: 0;
-//   box-sizing: border-box;
-//   outline: none;
-//   list-style: none;
-//   font-family: 'Lato', sans-serif;
-// }
+@import "partials/_variables.scss";
+@import "partials/_normalize.scss";
+@import "partials/_mixins.scss";
+@import "partials/_common.scss";
+@import "partials/_header.scss";
+@import "partials/_content.scss";
+@import "partials/_footer.scss";
